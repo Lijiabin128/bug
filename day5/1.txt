@@ -1,0 +1,1 @@
+res.send()和res.end()    end 只能接收两种参数，字符串和buffer  send可以接收多种参数

@@ -1,0 +1,42 @@
+**09年5月**
+node.js是一个让JavaScript运行在服务器端的**开发平台** 基于Chrome V8引擎(不是一种独立的语言)
+
+node.js的特点
+1.单线程（不会为每个用户创建一个线程，仅仅使用一个线程）
+2.非阻塞异步I/O（在执行了访问数据库的代码后，会立即转而执行后面代码,不断检查有没有未执行事件，依次予以处理）
+3.事件驱动（只能执行一个事件回调函数，但是在执行一个事件的回调函数的途中，可以转而处理其他函数）
+
+node不会单独最为后台使用，一般作为中间件使用（性能比较高）
+
+node的应用
+用户表单收集
+考试系统
+聊天室
+图文直播
+提供JSON的API（为前台Augular使用）
+
+迭代处理函数（自己调用自己）
+
+ajax回调
+$.ajax({
+    url:''
+    type:'get/post' 还有 put patch delete options
+    data:{},
+    timeout:3000,  延迟时间
+    async:false,
+    success:function(){ (jQuery3.0废除)
+        
+    }
+}).done(function(){
+    
+})
+
+node目录
+http 服务器
+creatServer 创建服务器
+
+
+命令行操作
+cd 切换目录
+cd.. 回到上一层目录
+ctrl+c 结束当前程序

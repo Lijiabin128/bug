@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "D:\\UserData\\Documents\\HBuilderProjects\\快班"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "最后阶段"
+	}
+}

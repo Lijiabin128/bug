@@ -1,0 +1,182 @@
+.wrap {
+    width: 1090px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.footer1 {
+    padding-top: 60px;
+    padding-bottom: 34px;
+    background-color: #fff;
+    border-top: 1px solid #e8e8e8;
+}
+
+.footer1 .box:first-child {
+    border: 0;
+}
+
+.footer1 .box {
+    width: 33%;
+    height: 204px;
+    float: left;
+    border-left: 1px solid #e9e9e9;
+}
+
+.footer1 .box h4 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.footer1 .pic {
+    width: 80px;
+    height: 100px;
+    font-size: 14px;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #E8E8E8;
+    border-radius: 2px;
+    line-height: 26px;
+    color: #333;
+    cursor: pointer;
+    float: left;
+    margin-left: 65px;
+}
+
+.footer1 .pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer1 .con {
+    text-align: left;
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 22px;
+    padding: 0 37px;
+}
+
+.footer1 .btm {
+    padding: 0 37px;
+}
+
+.footer1 .btm p {
+    margin-right: 15px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 32px;
+    float: left;
+}
+
+.footer1 .img {
+    float: left;
+    width: 32px;
+    height: 32px;
+}
+
+.footer1 .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer1 .img {
+    margin-left: 20px;
+}
+
+.footer1 .img:nth-child(2) {
+    margin-left: 0;
+}
+
+.footer1 .img2 {
+    width: 104px;
+    height: 104px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer1 .p2 {
+    color: #b4a078;
+    font-size: 12px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.footer2 {
+    height: 250px;
+    padding-top: 37px;
+    background-color: #414141;
+    color: #999;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.footer2 .top {
+    overflow: hidden;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #4f4f4f;
+}
+
+.footer2 .shop {
+    color: #fff;
+    font-size: 18px;
+    line-height: 51px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer2 .shop * {
+    float: left;
+}
+
+.footer2 .shop i {
+    width: 50px;
+    height: 50px;
+    margin-right: 17px;
+}
+
+.footer2 .shop i img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer2 .shop {
+    margin-left: 122px;
+}
+
+.footer2 .shop:first-child {
+    margin: 0;
+}
+
+.footer2 .bottom {
+    margin-top: 40px;
+}
+
+.footer2 .head {
+    font-size: 12px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.footer2 a {
+    color: #999;
+}
+
+.footer2 .head a {
+    padding: 0 13px;
+    border-left: 1px solid #999;
+}
+
+.footer2 .head a:first-child {
+    border: none;
+}
+
+.footer2 a:hover {
+    color: #fff;
+}
+
+.footer2 .center,
+.footer2 .end {
+    text-align: center;
+    margin-top: 10px;
+}

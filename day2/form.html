@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../框架兼容插件/插件/jquery-3.2.1.min (1).js"></script>
+</head>
+<body>
+    <form action="http://localhost:3000/dopost" method="POST" enctype="multipart/form-data">
+    用户名<input type="text" name="username">
+    密码<input type="text" name="password">
+            <input type="file" name="pic" id="pic" style="visibility: hidden;">
+        <img src="" alt="" width="100%" height="100%">
+    </div>
+    <input type="submit" value="提交">
+    </form>
+    <script>
+        var oSrc;
+       function add(){
+        $('#pic').get(0).click()
+       }
+       $('#pic').change(function(){
+            oSrc = $(this).val()
+        })
+    </script>
+</body>
+</html>

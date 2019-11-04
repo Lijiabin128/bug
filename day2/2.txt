@@ -1,0 +1,12 @@
+npm pulish  推送包
+num login   登录
+npm install 下载
+npm install 包名称 --save
+--save == -S 把项目依赖包下载到生产环境中
+
+什么是生产环境？
+线上运行的环境
+--save-dev == -D 把项目依赖包下载到开发环境中
+
+npm uninstall 卸载
+npm  init  项目初始化  =>package.json  ==npm init -y
