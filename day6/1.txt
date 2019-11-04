@@ -14,9 +14,22 @@ git config --global user.name "用户名"
 git config --global user.email "邮箱"
 git commit -m  提交文件并注释
 git remote add origin 仓库地址    连接远程仓库
-git push -u origin master  提交内容到master分支
-
+git push -u origin master  提交内容到master分支  首次提交
+git push 后续提交
+git pull 拉取
 git clone 仓库地址     克隆项目
+
+git branch 查看本地分支
+git branch 本地分支  创建分支
+git branch -r  查看远端分支
+git branch -d 存在的分支名称    删除分支
+git checkout 分支名称   切换名称、
+git checkout -b 分支名称     创建并切换到分支
+git merge 分支名称   合并分支
+
+git push  --set-upstream origin 分支名称   推送本地分支到远端
+
+
 
 版本控制系统
 
