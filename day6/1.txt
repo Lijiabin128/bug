@@ -23,7 +23,7 @@ git branch 查看本地分支
 git branch 本地分支  创建分支
 git branch -r  查看远端分支
 git branch -a   查看远端本地所有分支
-git branch -d 存在的分支名称    删除分支
+git branch -D 存在的分支名称    删除分支
 git branch -m 原分支名称 新分支名称    修改分支名称
 git checkout 分支名称   切换名称、
 git checkout -b 分支名称     创建并切换到分支
@@ -40,8 +40,15 @@ git rm --cached 文件名   删除暂存区的文件
 
 
 git diff   版本对比
+
 git log    查看日志
-git stach  封存
+
+git stash 封存  便于代码的暂存 从而不会导致影响代码之间的工作
+git stash save "备注"  封存
+git stash pop 删除暂存
+git stash list 查看暂存仓库的列表
+git stash show 显示以作修改的内容
+
 git tag    打标签
 git fetch  拉取
 

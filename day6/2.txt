@@ -1,1 +1,11 @@
-1212121
+mongodb数据库
+数据库分类:
+非关系型数据库  mongodb  sqlserver  redils
+关系型数据库  orancle  mysql
+
+配置环境
+开启两端
+1、
+服务端
+    mongod --dbpach
+ 客户端
