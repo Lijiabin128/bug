@@ -769,3 +769,6 @@ top: 0;
 	margin-left: -20px;
 	border-radius: 50%;
 }
+.silde-ri{
+    position: fixed;
+}

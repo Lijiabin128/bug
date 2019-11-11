@@ -1,6 +1,6 @@
 $(function(){
-    $("#header").load("公共头部.html")
-    $("#footer").load("公共尾部.html")
+    $("#header").load("header.html")
+    $("#footer").load("footer.html")
     $("#silde").load("cebianlan.html")
 
   // 调取数据，进行动态创建插入

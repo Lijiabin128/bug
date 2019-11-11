@@ -229,7 +229,7 @@ text-decoration: none;
     background-position: 0px -167px;
     height: 18px;
     width: 18px;
-    display: inline-block;
+    display:block;
     margin-left: 15px;
     float: left;
 }
@@ -238,7 +238,7 @@ text-decoration: none;
     margin-left: 5px;
     margin-top: 2px;
     font-size: 14px;
-    display: inline-block;
+    display:block;
     float: left;
     font-family: "Microsoft Yahei","微软雅黑";
 }
@@ -290,6 +290,9 @@ text-decoration: none;
     cursor: pointer;
     font-family: "Microsoft Yahei","微软雅黑";
 
+}
+.news2_ul li span:last-child{
+    border:none ;
 }
 .news2_ul li span:hover{
     color: #CC9756;

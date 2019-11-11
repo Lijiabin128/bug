@@ -1,6 +1,6 @@
 $(function () {
-  $("#head").load("公共头部.html")
-  $("#foot").load("公共尾部.html")
+  $("#head").load("header.html")
+  $("#foot").load("footer.html")
   $("#cebian").load("cebianlan.html")
 
 

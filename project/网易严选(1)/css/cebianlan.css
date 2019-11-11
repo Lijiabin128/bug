@@ -380,12 +380,12 @@ background-repeat: no-repeat;
 }
 .yx-cp-fixedtool-scrollToFixed.fixedActive .yx-cp-fixedtool {
     position: fixed;
-    top: 30px!important;
+    top: 60px!important;
 }
 .yx-fixedtoolSubscribe:hover .yx-subscribeDialog{
 	display: block;
 }
 .m-indexSideBar.fixed {
     position: fixed;
-    top: 30px!important;
+    top: 60px!important;
 }

@@ -42,7 +42,7 @@ time= setInterval(function(){
      $(".news2_ul").css("top",0)
  }else{
      num ++;
-     $(".news2_ul").animate({"top":-num * lheight2})
+     $(".news2_ul").animate({"top":-num * 18})
  }
 },2000)
 // var time;
@@ -157,30 +157,14 @@ $(".xi_main .tab_li").hover(function(){
     $(".tab_con").css("display","none")
 })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //头部
 //跳转首页
 $(".shouye").click(function(){
-    window.open("./首页.html","_self")
+    window.open("./index.html","_self")
 })
 //跳转为你严选
 $(".yanxuan").click(function(){
-    window.open("./为你严选.html","_self")
+    window.open("./yanxuan.html","_self")
 })
 //跳转众筹
 $(".zhongchou").click(function(){
@@ -194,7 +178,7 @@ $(".tab_li").click(function(){
 
 //吸顶
 $(".shouye1").click(function(){
-    window.open("./首页.html","_self")
+    window.open("./index.html","_self")
 })
 
 $(".xi_main .tab_li").click(function(){
